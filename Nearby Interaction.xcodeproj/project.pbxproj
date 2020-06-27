@@ -13,6 +13,10 @@
 		0484553524A7410700C29099 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 0484553324A7410700C29099 /* Main.storyboard */; };
 		0484553724A7410800C29099 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 0484553624A7410800C29099 /* Assets.xcassets */; };
 		0484553A24A7410800C29099 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 0484553824A7410800C29099 /* LaunchScreen.storyboard */; };
+		0484554424A745E000C29099 /* NearbyInteractionManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0484554324A745E000C29099 /* NearbyInteractionManager.swift */; };
+		0484554624A7469D00C29099 /* MultipeerConnectivityManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0484554524A7469D00C29099 /* MultipeerConnectivityManager.swift */; };
+		0484554824A75C1F00C29099 /* PointHelper.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0484554724A75C1F00C29099 /* PointHelper.swift */; };
+		0484554A24A75E1D00C29099 /* FloatingPoint+Extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0484554924A75E1D00C29099 /* FloatingPoint+Extension.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -24,6 +28,10 @@
 		0484553624A7410800C29099 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		0484553924A7410800C29099 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		0484553B24A7410800C29099 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		0484554324A745E000C29099 /* NearbyInteractionManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NearbyInteractionManager.swift; sourceTree = "<group>"; };
+		0484554524A7469D00C29099 /* MultipeerConnectivityManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MultipeerConnectivityManager.swift; sourceTree = "<group>"; };
+		0484554724A75C1F00C29099 /* PointHelper.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PointHelper.swift; sourceTree = "<group>"; };
+		0484554924A75E1D00C29099 /* FloatingPoint+Extension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "FloatingPoint+Extension.swift"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -59,6 +67,10 @@
 				0484552D24A7410700C29099 /* AppDelegate.swift */,
 				0484552F24A7410700C29099 /* SceneDelegate.swift */,
 				0484553124A7410700C29099 /* ViewController.swift */,
+				0484554724A75C1F00C29099 /* PointHelper.swift */,
+				0484554324A745E000C29099 /* NearbyInteractionManager.swift */,
+				0484554924A75E1D00C29099 /* FloatingPoint+Extension.swift */,
+				0484554524A7469D00C29099 /* MultipeerConnectivityManager.swift */,
 				0484553324A7410700C29099 /* Main.storyboard */,
 				0484553624A7410800C29099 /* Assets.xcassets */,
 				0484553824A7410800C29099 /* LaunchScreen.storyboard */,
@@ -137,9 +149,13 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				0484554A24A75E1D00C29099 /* FloatingPoint+Extension.swift in Sources */,
+				0484554824A75C1F00C29099 /* PointHelper.swift in Sources */,
 				0484553224A7410700C29099 /* ViewController.swift in Sources */,
+				0484554424A745E000C29099 /* NearbyInteractionManager.swift in Sources */,
 				0484552E24A7410700C29099 /* AppDelegate.swift in Sources */,
 				0484553024A7410700C29099 /* SceneDelegate.swift in Sources */,
+				0484554624A7469D00C29099 /* MultipeerConnectivityManager.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
